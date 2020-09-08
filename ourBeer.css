@@ -1,0 +1,60 @@
+.parallax {
+  background-image: url("picture/VM-ThirdSpaceBrewing-Beers.jpg");
+  height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text{
+        position: absolute;
+        z-index: 999;
+        margin: 0 auto;
+        left: 0;
+        right: 0;
+        top: 40%; /* Adjust this value to move the positioned div up and down */
+        text-align: center;
+        width: 90%; /* Set the width of the positioned div */
+        color: white;
+		font-family: 'Kaushan Script';
+		font-size: 1000px !important;
+    }
+
+body{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	font-family: sans-serif;
+	background:#140603;
+}
+
+p {
+	color: black;
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-family: 'Kaushan Script';
+}
+
+.card-title{
+  color: white;
+	font-family: 'Roboto';
+  font-size: 18px;
+}
+
+.card-action{
+  color: white;
+	font-family: 'Roboto';
+  font-size: 40px;
+}
+
+.row {
+  width: 100%;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Fighting Fish Brewery</title>
+
+	<link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+	 crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js">
+	</script>
+
+	<link href="shop.css" rel="stylesheet" type="text/css" />
+
+	<script src="main.js">
+	</script>
+</head>
+
+<body id="shop">
+
+    <div id="nav-placeholder"></div>
+
+    <div id="app">
+ 
+ 	<div class="titleImage">
+      <div class="page-title">
+          <h1>{{ pageTitle }} Shop</h1>
+      </div>  
+      </div>
+        
+          <div class="cart"> 
+            Cart({{ cart }})
+          </div>
+         
+		<product name="Hat" qty="10" cart="3" @add-to-cart="updateCart"
+		@remove-from-cart="removeItem"></product>
+  		<product name="Tote Bag" qty="20" cart="3" @add-to-cart="updateCart"
+		@remove-from-cart="removeItem"></product> 
+		<product name="Shirt" qty="15" cart="3" @add-to-cart="updateCart"
+		@remove-from-cart="removeItem"></product> 
+		<product name="Beer Mug" qty="30" cart="3" @add-to-cart="updateCart"
+		@remove-from-cart="removeItem"></product> 
+		
+      </div>
+   
+	<br />
+  
+    <div id="footer-placeholder"></div>
+    
+    <script src ="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="shop.js"></script>
+  </body>
+</html>

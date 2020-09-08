@@ -1,0 +1,77 @@
+body {
+    background: black;
+    color: white;
+    margin: 0px;
+  }
+
+.product {
+    padding: 3rem;
+  }
+
+  #product-pic {
+    border: 1px solid #d8d8d8;
+    width: 60%; 
+    margin: 40px;
+    box-shadow: 0px .5px 1px #d8d8d8;
+  }
+
+  .product-image {
+    width: 80%;
+  }
+  
+  .product-image,
+  .product-info {
+    font-family: 'Roboto';
+    margin-top: 10px;
+    width: 50%
+  }
+
+   .cart {
+    background: #7e7979;
+    color: whitesmoke;
+    margin-top: 25px;
+    margin-right: 25px;
+    float: right;
+    padding: 5px 20px;
+    border: .5px solid #d8d8d8;
+  }
+
+  button {
+    margin-top: 10px;
+    margin-right: 10px;
+    border: none;
+    background-color: #97570f;
+    color: whitesmoke;
+    height: 40px;
+    width: 100px;
+    font-size: 14px;
+  } 
+
+  .disabled {
+    background-color: #d8d8d8;
+    color: black;
+  }
+  
+  .alert {
+    color : red;
+  }
+
+  .page-title {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    text-align: center;
+    font-family: 'Kaushan Script';
+  }
+
+  .titleImage {
+  background-image: url("picture/barrels_Minibrew.width-1124.jpg");
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+

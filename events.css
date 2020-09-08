@@ -1,0 +1,127 @@
+.sticky-notes h1{
+	text-align:center;
+	padding-top: 40px 25px;
+	font-family: 'Kaushan Script';
+	border: 5px solid;
+  color:#fff; 
+}
+body{
+  font-family:arial,sans-serif;
+  font-size:100%;
+  margin:3em;
+  background: black !important;
+}
+p{
+  font-size:100%;
+  font-weight:normal;
+}
+
+/*makes post-its no clikable */
+.inactiveLink {
+   pointer-events: none;
+   cursor: default;
+}
+
+#postit,li{
+  list-style:none;
+}
+#postit{
+  overflow:hidden;
+  padding:3em;
+}
+#postit li a{
+  text-decoration:none;
+  color:#000;
+  background:#ffc;
+  display:block;
+  height:15em;
+  width:15em;
+  padding:1em;
+  -moz-box-shadow:5px 5px 7px rgba(33,33,33,1);
+  -webkit-box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+  box-shadow: 5px 5px 7px rgba(33,33,33,.7);
+}
+#postit li{
+  margin:3em;
+  float:left; 
+}
+
+
+#postit li p{
+ font-family: 'Kaushan Script';
+ 
+}
+#postit li a{
+  -webkit-transform: rotate(-6deg);
+  -o-transform: rotate(-6deg);
+  -moz-transform:rotate(-6deg);
+}
+#postit li:nth-child(even) a{
+  -o-transform:rotate(4deg);
+  -webkit-transform:rotate(4deg);
+  -moz-transform:rotate(4deg);
+  position:relative;
+  top:5px;
+}
+#postit li:nth-child(3n) a{
+  -o-transform:rotate(-3deg);
+  -webkit-transform:rotate(-3deg);
+  -moz-transform:rotate(-3deg);
+  position:relative;
+  top:-5px;
+}
+#postit li:nth-child(5n) a{
+  -o-transform:rotate(5deg);
+  -webkit-transform:rotate(5deg);
+  -moz-transform:rotate(5deg);
+  position:relative;
+  top:-10px;
+}
+
+h2 {
+	text-align:center;
+	font-size: 180%;
+  font-family: 'Kaushan Script';
+  color: white !important;
+}
+
+
+.date-picker{
+	float:center;
+text-align: center;
+}
+
+.date-picker p{
+  color: white !important;
+}
+span {
+	color: red;
+	margin-left: .5em;
+}
+
+.sticky-notes{
+ background-image: url("picture/ff_event.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+} 
+
+#tour {
+  text-align:center;
+	font-size: 180%;
+  font-family: 'Kaushan Script';
+}
+label {
+  color: white;
+}
+
+.container {
+	  text-align:center;
+	font-size: 180%;
+  font-family: 'Kaushan Script';
+}
+
+#footer-placeholder{
+  text-align: left;
+}

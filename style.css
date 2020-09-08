@@ -1,0 +1,58 @@
+
+
+body {
+	background-color: black !important;
+	position: relative !important;
+}
+
+.carousel {
+  height:500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.w-100 {
+	background-position: center center;
+	width: 100%;
+	opacity: 0.4;
+}
+
+.logo {
+	position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+
+.header {
+	color: white;
+	text-align: center;
+	font-family: 'Kaushan Script';
+	font-size: 48px;
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	font-family: 'Kaushan Script';
+	font-size: 48px;
+}
+
+p {
+	color: white;
+	text-align: center;
+	font-family: 'Roboto';
+	font-size: 20px;
+}
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+

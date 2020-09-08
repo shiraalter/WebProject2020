@@ -1,0 +1,135 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Special Events</title>
+    <link href="events.css" rel="stylesheet" type="text/css" />
+  
+   <!-- font stylesheet-->
+ <link href="https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap" rel="stylesheet">
+
+
+
+	 <!-- <script src="http://code.jquery.com/jquery-3.1.1.min.js"></script> -->
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <!-- navbar links -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<!-- Bootstrap Date-Picker Plugin -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/js/bootstrap-datepicker.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.1/css/bootstrap-datepicker3.css"/>
+
+</head>
+
+<body>
+
+<div id="nav-placeholder"></div>
+
+	<div class="sticky-notes">
+    <br><br>
+		<h1> SPECIAL EVENTS AND OFFERS</h1>
+	
+  <ul id ="postit">
+    <li>
+      <a href="#" class="inactiveLink"> 
+        <p>Come celebrate our 100 year anniversary on October 22nd!</p>
+        <p>There will be entertainment, food, factory tours, and so much more. You won't want to miss it! </p>
+      
+      </a> 
+    </li>
+    <li>
+      <a href="#" class ="inactiveLink">
+        <p>ATTENTION ALL BEER LOVERS:</p>
+        <p>There will be a huge beer pong competition on Labor Day to raise money for charity relief funds. We will match every dollar raised! </p>
+      </a>
+    </li>
+    <li>
+      <a href="#" class ="inactiveLink">
+        <p>ANNUAL CRAFT BEER SUMMER FESTIVAL</p>
+        <p>GO VIP FOR AN EXTRA HOUR OF TASTING + ACCESS TO OUR NEW RELEASES + 5$ GRILL HOUR</p>
+        <p>For just $39.50 a person!</p>
+      </a>
+    </li>
+    <li>
+      <a href="#" class ="inactiveLink">
+        <p>Choose Fighting Fish Brewery to provide beer for your event of 50+ people and we will give you 15% off your order</p>
+      </a>
+    </li>
+    <li>
+      <a href="#" class ="inactiveLink">
+        <p>Enter into our raffle to get an all exclusive tour of our factories. You'll learn how we craft the tastiest and most memorable beer in America (and you'll get to taste some too!).</p>
+        
+      </a>
+    </li>
+    <li>
+      <a href="#" class ="inactiveLink">
+        <p>FATHER'S DAY SALE! Show your father how much you love him by buying him his favorite beer!</p>
+        <p>Get 25% off your purchase of $50 or more using code "BEERBELLY"</p>
+        </a>
+    </li>   
+  </ul>
+ </div>
+   
+   
+	<h2 id="tour"> Want to book a factory tour? Tell us what date works for you!</h2>
+   	<div class = "date-picker">
+ 	<div class = "date-picker">
+<div class="bootstrap-iso">
+ <div class="container-fluid">
+  <div class="row">
+    <div class="col-sm-3"></div>
+   <div class="col-md-6 col-sm-6 col-xs-12">
+   	
+       <form id="age_verify" name="age_verify">
+      	<p>Before you schedule a factory tour, please verify your age:</p>
+      	<label for= "year">What year were you born?</label>
+      	<input type= "text" id= "year" name="year">
+      	<span>*</span>
+      	<input type="submit" id="join" name="join" value="Enter Age">
+      	<br> <br> <br>
+      </form>
+      
+    <!-- Form code begins -->
+    <form method="post" id="date_picker">
+      <div class="form-group"> <!-- Date input -->
+        <label class="control-label" for="date">Pick a date!</label>
+        <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text"/>
+        
+      </div>
+      
+      
+      <div class="form-group"> <!-- Submit button -->
+        <button class="btn btn-primary " name="submit" type="submit">Submit</button>
+      </div>
+     </form>
+     <!-- Form code ends --> 
+     
+  
+    </div>
+    <div class="col-sm-3"></div>
+  </div>    
+ </div>
+</div>
+	</div>
+
+<br>
+<br>
+<h2 class="container">Event Photos from our Flickr Feed!</h2>
+<br>
+<div id="photos"></div>
+  
+ <script src="eventsNav.js"> </script>
+ <script src="events.js"> </script>
+
+ <div id="footer-placeholder"></div>
+</body>
+</html>

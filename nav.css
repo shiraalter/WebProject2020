@@ -1,0 +1,13 @@
+.navbar {
+  z-index: 9999;
+  background-color: black !important;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  opacity: 70%;
+  display: inline;
+}
+
+.navbar a {
+	color: grey;
+}
