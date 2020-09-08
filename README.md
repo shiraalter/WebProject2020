@@ -9,5 +9,5 @@ This website was made as a collaborative project for a company called Fighting F
 * Bootstrap
 * Vue.js
 
-Click here to view the website: [Fighting Fish Brewery](http://127.0.0.1:8020/WebProject2020/index.html) 
+Click here to view the website: [Fighting Fish Brewery](http:webrpoject--lillianliebman.repl.co) 
 
