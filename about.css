@@ -1,0 +1,106 @@
+
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 3;
+  background: black !important;
+}
+
+h1 h2{
+  color: White;
+	text-align: center;
+	font-family: 'Kaushan Script';
+	font-size: 48px;
+
+}
+
+.paragraph{
+	font-size: 18px;
+  color: white;
+}
+
+.container{
+  margin: 30px;
+  background-color: black;
+  opacity: 0.6;
+  z-index: 0;
+}
+
+.about-us {
+  padding: 80px;
+  text-align: center;
+  background-image: url("picture/about.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.about-us h1 {
+  color: white;
+	text-align: center;
+	font-family: 'Kaushan Script';
+	font-size: 48px;
+}
+
+.accordian-area{
+  padding: 100px;
+
+}
+
+.accordian-area h2{
+    color: white;
+	text-align: center;
+	font-family: 'Kaushan Script';
+	font-size: 48px;
+}
+
+
+.formbox{
+  text-align: center;
+}
+
+
+#title {
+text-align: center;
+  color: white;
+  font-family: 'Kaushan Script';
+}
+
+.boxes {
+ text-align: center;
+}
+
+.form-group-row{
+	text-align: center;
+	
+}
+
+.contact-form{
+	text-align:center;
+}
+
+label {
+    text-align: right;
+    color: white;
+}
+input {
+    width: 12em;
+    margin-left: 1em;
+    margin-bottom: .5em;
+}
+span {
+	color: red;
+	margin-left: .5em;
+}
+#join, #reset {
+	width: 7.5em;
+}
+#event, #offer, #new  {
+	width: 1em;
+
+}
+
+#event{
+color: white;
+}
